@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Check Input</title>
+  </head>
+  <body>
+    {% extends "templates.html" %}
+    {% block content %}
+    <h1> Checking Begins Here</h1>
+    <form action="http://127.0.0.1:5000/result">
+      <textarea name="myTextBox" cols="50" rows="10">
+Type or paste your essay here...
+</textarea>
+      <br />
+      <input type="submit" />
+      </form>
+    {% endblock %}
+  </body>
+</html>
+  
